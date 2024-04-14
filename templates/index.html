@@ -1,0 +1,67 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disease Prediction</title>
+    <link rel="stylesheet" href="{% static 'index.css' %}">
+</head>
+<body>
+    <header>
+        <h1>Disease Prediction</h1>
+        <!-- <p>using symtoms</p> -->
+    </header>
+<div class="ff">
+    <h2>Enter the details of the patient</h2>
+    
+<form action="" method="post">
+    {% csrf_token %}
+    <label for="Name">Name of patient: </label>
+    <input type="text" name="Name" id="Name"><br>
+
+    <label for="symptom1">Symptom 1</label>
+    <select name="symptom1" id="">
+        {% for symptom in symptoms %}
+        <option value="{{ symptom }}">{{ symptom }}</option>
+        {% endfor %}
+    </select><br>
+    <label for="symptom2">Symptom 2</label>
+    <select name="symptom2" id="">
+        {% for symptom in symptoms %}
+        <option value="{{ symptom }}">{{ symptom }}</option>
+        {% endfor %}
+    </select><br>
+    <label for="symptom3">Symptom 3</label>
+    <select name="symptom3" id="">
+        {% for symptom in symptoms %}
+        <option value="{{ symptom }}">{{ symptom }}</option>
+        {% endfor %}
+    </select><br>
+    <label for="symptom4">Symptom 4</label>
+    <select name="symptom4" id="">
+        {% for symptom in symptoms %}
+        <option value="{{ symptom }}">{{ symptom }}</option>
+        {% endfor %}
+    </select><br>
+    <label for="symptom5">Symptom 5</label>
+    <select name="symptom5" id="">
+        {% for symptom in symptoms %}
+        <option value="{{ symptom }}">{{ symptom }}</option>
+        {% endfor %}
+    </select><br><br>
+
+    <label>Which Algorithm You Want To Use:</label><br>
+    <input type="radio" name="algo" id="algoDecisionTree" value="DecisionTree"><label for="algoDecisionTree">Decision Tree</label><br>
+    <input type="radio" name="algo" id="algoRandomForest" value="RandomForest"><label for="algoRandomForest">Random Forest</label><br>
+    <input type="radio" name="algo" id="algoKNN" value="KNN"><label for="algoKNN">K-Nearest Neighbor</label><br>
+    <input type="radio" name="algo" id="algoNaiveBayes" value="NaiveBayes"><label for="algoNaiveBayes">Naive Bayes</label><br>
+    <input type="radio" name="algo" id="algoSVM" value="SVM"><label for="algoSVM">Support Vector Machine</label><br><br>
+
+    <button type="submit">Predict</button>
+</form>
+
+</div>
+
+</body>
+</html>

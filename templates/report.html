@@ -1,0 +1,36 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disease Prediction</title>
+    <link rel="stylesheet" href="{% static 'report.css' %}">
+</head>
+<body>
+    <header>
+        <h1>Disease Prediction</h1>
+        <!-- <p>using symtoms</p> -->
+    </header>
+<div class="ff">
+    <h2>Report Of patient</h2>
+    <p>Name of patient : {{ Name }}</p><br>
+    <p>Algorithm Used : {{ algo }}</p><br>
+    <p>Predicted Disease : {{ prediction }}</p><br>
+    <p>Disease Discription </p>
+    <p>{{ discription }}</p><br>
+    <p>Disease Precaution</p>
+    <ul>
+        <li>{{pre1}}</li>
+        <li>{{pre2}}</li>
+        <li>{{pre3}}</li>
+        <li>{{pre4}}</li>
+    </ul>
+</div>
+<div class="sign">
+    <div class="sign1">
+        <p >Doctor Signature</p>
+        <p>Dr. Abhishek Yadav</p>
+    </div>
+</body>
+</html>
