@@ -1,7 +1,7 @@
 # Disease Prediction System
 
-![GitHub last commit](https://img.shields.io/github/last-commit/your_username/your_repository_name)
-![GitHub repo size](https://img.shields.io/github/repo-size/your_username/your_repository_name)
+![GitHub last commit](https://img.shields.io/github/last-commit/sanu0711/Disease-Prediction-System)
+![GitHub repo size](https://img.shields.io/github/repo-size/sanu0711/Disease-Prediction-System)
 
 ## Overview
 
@@ -18,13 +18,13 @@ This project implements a Disease Prediction System using various machine learni
 1. Clone the repository:
 
     ```
-    git clone https://github.com/your_username/your_repository_name.git
+    git clone https://github.com/sanu0711/Disease-Prediction-System.git
     ```
 
 2. Navigate to the project directory:
 
     ```
-    cd your_repository_name
+    cd Disease-Prediction-System
     ```
 
 3. Install dependencies:
@@ -71,6 +71,6 @@ This project implements a Disease Prediction System using various machine learni
 
 ## Contributors
 
-- [Your Name](https://github.com/your_username)
+- [Abhishek Yadav](https://github.com/sanu0711)
 
 
