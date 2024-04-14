@@ -55,11 +55,11 @@ This project implements a Disease Prediction System using various machine learni
 
 ## Screenshots
 
-![Screenshot 1](screenshots/screenshot1.png)
-*Description of the screenshot*
+![Screenshot 1](https://github.com/sanu0711/Disease-Prediction-System/blob/main/static/image/Screenshot%20(471).png)
+*Details of the patient*
 
-![Screenshot 2](screenshots/screenshot2.png)
-*Description of the screenshot*
+![Screenshot 2](https://github.com/sanu0711/Disease-Prediction-System/blob/main/static/image/Screenshot%20(472).png)
+*Report of the Patient*
 
 ## Algorithms Used
 
